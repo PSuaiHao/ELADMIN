@@ -43,6 +43,7 @@
       <dialogchildren @close="close" :dialogFormVisible="dialogFormVisible"></dialogchildren>
     </div>
   </div>
+  <div class="abc"></div>
 </template>
 
 <script lang="ts" setup>
@@ -117,10 +118,16 @@ const del = (val: number) => {
 .btn {
   margin-bottom: 10px;
 }
-.fl{
+
+.fl {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
+}
+
+.abc {
+  background-color: #fff;
+  color: white;
 }
 </style>
